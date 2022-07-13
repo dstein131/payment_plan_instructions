@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direction to fill out Subsequent Taxes CSV File</title>
+    <link href="ppsetupdir.css" rel="stylesheet">
+</head>
+<body>
+    <div id="mainWrap"></div>
+    <h2>Setting up a new Payment Plan</h2>
+    <div>
+            <!-- <div class="para">
+                <p>This CSV file is used to apply the surplus for a property sold at tax sale to taxes that have become due after the sale.
+                Only properties that were sold on the tax sale that generated a surplus will appear on this CSV file.
+                Fill out the form as described below for those properties you want to apply the surplus to subsequent taxes</p>
+                <span>Any properties left blank will be skipped by the system.</span>
+            </div>   -->
+            <div class="card">
+                <span>Property Selection</span>
+                <p style="margin-left: 5px; margin-right: 5px">Fill in the appropriate property or sale ID into the Property Selection dialog box and click on the ‘Submit’ button. <u>NOTE:</u> When you begin typing, the system will start to display potential matches to the ID you are typing.</p>
+                <img src="/pppropselect.png" alt="Property Selection">
+                <!-- <ol>
+                    <li>Click 'Download CSV file to fill out' button</li>
+                    <li>Open saved document (check downloads folder)</li>
+                    <li>Fill out columns F-J as per the definitions provided below</li>
+                    <li>Save file locally to your computer</li>
+                    <li>Click 'Choose File' button and select your newly saved CSV file</li>
+                    <li>Click 'Upload CSV file to Process' button</li>
+                </ol> -->
+            </div>
+            <div class="card">
+                <span>Payment Plan Details</span>
+                <p style="margin-left: 5px; margin-right: 5px">The Payment Plan Details for the property you selected above will now be displayed.  Verify this is the property you are seeking and continue to fill out the information in the details section to begin creating a payment plan.  An example has been provided in the screenshot below with sensitive information redacted.  <u>NOTE:</u> Fields with an asterisk * are required fields.</p>
+                <img style="width: 100%" src="/ppdetails.png" alt="Payment Plan Details">
+                <!-- <ul>
+                    <li>Columns A & B: SALE ID, PROPERTY ID - Are to identify the property</li>
+                    <li>Columns C, D, & E: SURPLUS, SURPLUS WARRANTS, SURPLUS REMAINING show the amount of the surplus, amount of warrants already paid, and how much surplus remains</li>
+                    <li>Columns F, G, H, I, & J: Need to complete as described below</li>
+                </ul> -->
+            </div>
+            <div class="card">
+            <span class="listTitle">Down Payment</span>
+            <p style="margin-left: 5px; margin-right: 5px">It is important to note that if the owner wishes to make a payment on the same day the payment plan is created, the Down Payment field will need to be used to record that payment.  This will lower the monthly payments and keep the same number of payments. </p>
+            <img style="width: 80%" src="/downpayment.png" alt="Down Payment">
+            
+            <!-- <ul>
+                <li><span class="field">DATE (Column F)</span> - Put in the date of the warrant in the format mm/dd/yyyy (EX: 9/11/2021)</li>
+                <li><span class="field">NUMBER (Column G)</span> - Put in the number of the warrant</li>
+                <li><span class="field">PAID TO (Column H)</span> - Put in to whom this warrant will be paid to</li>
+                <li><span class="field">AMOUNT (Column I)</span> - Put in the amount of the warrant without a '$' or commas (EX: $2,123.99 would be entered as 2123.99)</li>
+                <li><span class="field">DESCRIPTION (Column J)</span> - Put in the description for the offset adjustment that will also be entered (EX: Used Surplus for 2021 / Pay 2022)</li>
+            </ul> -->
+            </div>
+            <div class="card">
+            <span class="listTitle">Saving the Payment Plan</span>
+            <p style="margin-left: 5px; margin-right: 5px">Once the plan details have been entered, the plan needs to be saved – select the ‘Save Plan’ button to save the plan.  The resulting page will show additional options and the payment table.  <u>NOTE:</u> You will be asked to confirm if you want to save the plan and if there are any missed fields in the form, you’ll see a message at the top of the page with details.  </p>
+            <img style="width: 100%" src="/ppfinaldetail.png" alt="Down Payment">
+            <p>At this point, the plan has been saved with the details entered in the plan details.  If all of this information is correct, the plan needs to be acknowledged and signed by the property owner.  If an email or cell phone number was collected in the payment plan details, click on the ‘Activate Plan’ button to send an email/SMS confirmation to the email address or cell phone for validation.  You may also click on ‘View Agreement’ to display a copy of the payment plan which can be printed and signed by the property owner and a representative for the county.  Once the agreement has been executed, the plan can be scanned and saved back to the Tax Sale System by selecting ‘Save Signed Agreement’ after choosing a file.  After this, at any time, you can go back and select ‘Download Pay Plan’ to download this signed copy of the agreement. <u>NOTE:</u> By completing this process, it does not update the status within the system for the parcel itself. Please refer to the section titled <u>Updating Status within Tax Sale System</u> if the county chooses to update the status once a payment plan is activated.</p>
+            
+            <!-- <ul>
+                <li><span class="field">DATE (Column F)</span> - Put in the date of the warrant in the format mm/dd/yyyy (EX: 9/11/2021)</li>
+                <li><span class="field">NUMBER (Column G)</span> - Put in the number of the warrant</li>
+                <li><span class="field">PAID TO (Column H)</span> - Put in to whom this warrant will be paid to</li>
+                <li><span class="field">AMOUNT (Column I)</span> - Put in the amount of the warrant without a '$' or commas (EX: $2,123.99 would be entered as 2123.99)</li>
+                <li><span class="field">DESCRIPTION (Column J)</span> - Put in the description for the offset adjustment that will also be entered (EX: Used Surplus for 2021 / Pay 2022)</li>
+            </ul> -->
+            </div>
+    </div>
+</div>
+</body>
+</html>
